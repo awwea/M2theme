@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <meta name="author" content="AWWEA.COM" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+        <meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible' />
+        <meta name="publisher" content="AWWEA"/>
+        <meta name="copyright" content="AWWEA, 2017"/>
+        <meta name="distribution" content="global"/>
+
+        <link src="//fonts.googleapis.com/css?family=Shadows+Into+Light" src_type="url" /> 
+        <css src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" src_type="url" />
+        <css src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" src_type="url" />
+        <css src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" src_type="url" />
+        <css src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" src_type="url" />
+        <css src="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" src_type="url" />
+
+        <css src="owl.carousel/assets/owl.carousel.css" />
+        <css src="icon-fonts/css/porto-icons-codes.css" />
+        <css src="icon-fonts/css/animation.css" />
+        <css src="/css/theme_all_style.css" src_type="url" after="-"/>
+
+        <script src="jquery.js" />
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" src_type="url" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js" src_type="url" />
+
+        <!-- Bootstrap JS local fallback -->
+        <script>if(typeof($.fn.modal) === 'undefined') {document.write('<script src="bootstrap/js/bootstrap.min.js" />')}</script>
+        <!-- Bootstrap CSS local fallback -->
+        <div id="bootstrapCssTest" class="hidden"></div>
+        <script>$(function() {if ($('#bootstrapCssTest').is(':visible')) {$("head").prepend('<css src="bootstrap/css/bootstrap.min.css" />');}});</script>
+    </head>
+</page>
